@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outputList>
+   <cortex xmlns="http://www.deutsche-digitale-bibliothek.de/cortex"
+           xmlns:institution="http://www.deutsche-digitale-bibliothek.de/institution"
+           xmlns:item="http://www.deutsche-digitale-bibliothek.de/item">
+      <properties>
+         <cortex-type>Kultur</cortex-type>
+      </properties>
+      <edm>
+         <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                  xmlns:ore="http://www.openarchives.org/ore/terms/"
+                  xmlns:owl="http://www.w3.org/2002/07/owl#"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                  xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+                  xmlns:ddb="http://www.ddb.de/"
+                  xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#">
+            <ore:Aggregation rdf:about="#ub-ffm:aggregation:judaica:urn:nbn:de:hebis:30:2-1150">
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+               <edm:aggregatedCHO rdf:resource="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-1150"/>
+               <edm:dataProvider rdf:resource="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+               <edm:dataProvider>Universitätsbibliothek JCS Frankfurt am Main</edm:dataProvider>
+               <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-1150"/>
+               <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1731037"/>
+               <edm:provider>Judaica Europeana</edm:provider>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+            </ore:Aggregation>
+            <edm:ProvidedCHO rdf:about="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-1150">
+               <dc:contributor>Hagiz, Moses B.</dc:contributor>
+               <dc:creator rdf:resource="http://d-nb.info/gnd/119130556"/>
+               <dc:description xml:lang="de">Miṣ : 1766, 5527 [1766/67]</dc:description>
+               <dc:description xml:lang="de">Digitalisat der Ausg. Miṣ, 1766/67</dc:description>
+               <dc:description xml:lang="de">Text teilw. hebr., teil. jidd.</dc:description>
+               <dc:description xml:lang="de">Übers. d. Hauptsacht.: Die Arten des Lebens</dc:description>
+               <dc:format xml:lang="de">35, [1] Bl.</dc:format>
+               <dc:identifier>urn:nbn:de:hebis:30:2-1150</dc:identifier>
+               <dc:language>he</dc:language>
+               <dc:language>yi</dc:language>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4023922-6"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4332672-9"/>
+               <dc:title>Ôrḥôt ḥayyîm / ḥibbērô ... Ašer ...</dc:title>
+               <dc:type xml:lang="en">Monograph</dc:type>
+               <dcterms:alternative>Le-maʿalat hazkārat hat-tešûvā</dcterms:alternative>
+               <dcterms:issued>1766</dcterms:issued>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4023922-6"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4332672-9"/>
+               <ddb:aggregationEntity>false</ddb:aggregationEntity>
+               <ddb:hierarchyPosition>ord000000001</ddb:hierarchyPosition>
+               <ddb:hierarchyType>htype_021</ddb:hierarchyType>
+               <edm:currentLocation rdf:resource="http://d-nb.info/gnd/4018118-2"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-1150:created"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-1150:published"/>
+               <edm:hasType rdf:resource="http://ddb.vocnet.org/hierarchietyp/ht021"/>
+               <edm:type>TEXT</edm:type>
+            </edm:ProvidedCHO>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main">
+               <crm:P74_has_current_or_former_residence rdf:resource="http://d-nb.info/gnd/4024729-6"/>
+               <owl:sameAs rdf:resource="http://d-nb.info/gnd/10096915-X"/>
+               <owl:sameAs rdf:resource="http://ld.zdb-services.de/data/organisations/DE-30"/>
+               <owl:sameAs rdf:resource="http://viaf.org/viaf/123368197"/>
+               <rdf:type rdf:resource="http://ddb.vocnet.org/sparte/sparte002"/>
+               <skos:prefLabel xml:lang="de">Universitätsbibliothek JCS Frankfurt am Main</skos:prefLabel>
+            </edm:Agent>
+            <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-1150">
+               <dc:format>text/html</dc:format>
+               <dc:type rdf:resource="http://ddb.vocnet.org/medientyp/mt003"/>
+               <dcterms:created>1999</dcterms:created>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1731037">
+               <dc:format>image/jpeg</dc:format>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/medientyp/mt003">
+               <skos:notation>mediatype_003</skos:notation>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4024729-6">
+               <skos:prefLabel>Hessen</skos:prefLabel>
+            </edm:Place>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/sparte/sparte002">
+               <skos:notation>sec_02</skos:notation>
+            </skos:Concept>
+            <edm:Agent rdf:about="http://d-nb.info/gnd/119130556">
+               <skos:prefLabel>Asher ben Yeḥiʾel</skos:prefLabel>
+            </edm:Agent>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4023922-6">
+               <skos:prefLabel>Hebräisch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4028614-9">
+               <skos:prefLabel>Jiddisch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4332672-9">
+               <skos:prefLabel>Jüdische Ethik</skos:prefLabel>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4018118-2">
+               <skos:prefLabel>Frankfurt am Main</skos:prefLabel>
+               <wgs84_pos:lat>50.11552</wgs84_pos:lat>
+               <wgs84_pos:long>8.68417</wgs84_pos:long>
+            </edm:Place>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-1150:created">
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-1150:2_Hagiz__Moses_B."/>
+               <crm:P11_had_participant rdf:resource="http://d-nb.info/gnd/119130556"/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00012"/>
+            </edm:Event>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-1150:published">
+               <edm:happenedAt rdf:resource="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-1150:1_Mi%E1%B9%A3"/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00228"/>
+               <edm:occuredAt rdf:resource="#ub-ffm:timespan:1766_1766"/>
+               <edm:occuredAt rdf:resource="http://ddb.vocnet.org/zeitvokabular/dat00020"/>
+            </edm:Event>
+            <skos:concept rdf:about="http://ddb.vocnet.org/hierarchietyp/ht021">
+               <skos:prefLabel xml:lang="de">Monografie</skos:prefLabel>
+            </skos:concept>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-1150:2_Hagiz__Moses_B.">
+               <skos:prefLabel>Hagiz, Moses B.</skos:prefLabel>
+            </edm:Agent>
+            <edm:Place rdf:about="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-1150:1_Mi%E1%B9%A3">
+               <skos:prefLabel xml:lang="de">Miṣ</skos:prefLabel>
+            </edm:Place>
+            <edm:TimeSpan rdf:about="#ub-ffm:timespan:1766_1766">
+               <edm:begin>1766</edm:begin>
+               <edm:end>1766</edm:end>
+               <skos:prefLabel xml:lang="de">1766</skos:prefLabel>
+            </edm:TimeSpan>
+            <edm:TimeSpan rdf:about="http://ddb.vocnet.org/zeitvokabular/dat00020">
+               <skos:notation>time_61800</skos:notation>
+            </edm:TimeSpan>
+         </rdf:RDF>
+      </edm>
+   </cortex>
+</outputList>

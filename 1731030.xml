@@ -1,0 +1,2491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+    xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mets="http://www.loc.gov/METS/"
+    xmlns:epicur="urn:nbn:de:1111-2004033116" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:marcxml="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.openarchives.org/OAI/2.0/"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2014-07-25T17:04:57Z</responseDate>
+    <request verb="GetRecord" metadataPrefix="mets"
+        identifier="oai:sammlungen.ub.uni-frankfurt.de:1731030"
+        >http://sammlungen.ub.uni-frankfurt.de/oai/</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:sammlungen.ub.uni-frankfurt.de:1731030</identifier>
+                <datestamp>2011-07-02T08:21:27Z</datestamp>
+                <setSpec>ubffmwjd</setSpec>
+            </header>
+            <metadata>
+                <mets:mets xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:vls="http://semantics.de/vls"
+                    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version18/mets.xsd"
+                    OBJID="3" LABEL="Digitale Sammlungen">
+                    <mets:metsHdr CREATEDATE="2014-07-25T19:04:57">
+                        <mets:agent TYPE="OTHER" ROLE="OTHER" OTHERTYPE="SOFTWARE">
+                            <mets:name>vls/2.15</mets:name>
+                        </mets:agent>
+                        <mets:agent TYPE="OTHER" ROLE="OTHER" OTHERTYPE="INSTANCE">
+                            <mets:name>ubffm-server</mets:name>
+                        </mets:agent>
+                        <mets:agent TYPE="OTHER" ROLE="OTHER" OTHERTYPE="REPOSITORY">
+                            <mets:name>sammlungen.ub.uni-frankfurt.de</mets:name>
+                        </mets:agent>
+                        <mets:agent TYPE="OTHER" ROLE="OTHER" OTHERTYPE="BUILDER">
+                            <mets:name>vd</mets:name>
+                        </mets:agent>
+                    </mets:metsHdr>
+                    <mets:dmdSec ID="md1731030">
+                        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+                            <mets:xmlData>
+                                <mods:mods version="3.4"
+                                    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                                    <mods:titleInfo>
+                                        <mods:title>Ôrḥôt ḥayyîm</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:titleInfo type="alternative">
+                                        <mods:title>Le-maʿalat hazkārat hat-tešûvā</mods:title>
+                                    </mods:titleInfo>
+                                    <mods:name type="personal" authority="gnd"
+                                        authorityURI="http://d-nb.info/gnd/"
+                                        valueURI="http://d-nb.info/gnd/119130556">
+                                        <mods:displayForm>Asher ben Yeḥiʾel</mods:displayForm>
+                                        <mods:namePart>Asher ben Yeḥiʾel</mods:namePart>
+                                        <mods:role>
+                                            <mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+                                            <mods:roleTerm type="text">Verf.</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:name type="personal">
+                                        <mods:displayForm>Hagiz, Moses B.</mods:displayForm>
+                                        <mods:namePart>Hagiz, Moses B.</mods:namePart>
+                                        <mods:namePart type="given">Moses B.</mods:namePart>
+                                        <mods:namePart type="family">Hagiz</mods:namePart>
+                                        <mods:role>
+                                            <mods:roleTerm type="code" authority="marcrelator">asn</mods:roleTerm>
+                                            <mods:roleTerm type="text">Beteiligte Person</mods:roleTerm>
+                                        </mods:role>
+                                    </mods:name>
+                                    <mods:typeOfResource>text</mods:typeOfResource>
+                                    <mods:originInfo>
+                                        <mods:place>
+                                            <mods:placeTerm type="text">Miṣ</mods:placeTerm>
+                                        </mods:place>
+                                        <mods:issuance>monographic</mods:issuance>
+                                        <mods:dateIssued keyDate="yes" encoding="iso8601">1766</mods:dateIssued>
+                                        <mods:dateIssued>5527 [1766/67]</mods:dateIssued>
+                                    </mods:originInfo>
+                                    <mods:originInfo>
+                                        <mods:place>
+                                            <mods:placeTerm type="text">Frankfurt am Main</mods:placeTerm>
+                                        </mods:place>
+                                        <mods:publisher>Univ.-Bibliothek</mods:publisher>
+                                        <mods:dateIssued keyDate="yes" encoding="iso8601">1999</mods:dateIssued>
+                                        <mods:edition>[Electronic ed.]</mods:edition>
+                                    </mods:originInfo>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b" type="code">heb</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:language>
+                                        <mods:languageTerm authority="iso639-2b" type="code">yid</mods:languageTerm>
+                                    </mods:language>
+                                    <mods:physicalDescription>
+                                        <mods:extent>35, [1] Bl.</mods:extent>
+                                    </mods:physicalDescription>
+                                    <mods:note type="statement of responsibility">ḥibbērô ... Ašer ...</mods:note>
+                                    <mods:note>Digitalisat der Ausg. Miṣ, 1766/67</mods:note>
+                                    <mods:note>Übers. d. Hauptsacht.: Die Arten des Lebens</mods:note>
+                                    <mods:note>Text teilw. hebr., teil. jidd.</mods:note>
+                                    <mods:subject>
+                                        <mods:topic authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4332672-9">Jüdische Ethik</mods:topic>
+                                    </mods:subject>
+                                    <mods:subject>
+                                        <mods:topic authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4028614-9">Jiddisch</mods:topic>
+                                    </mods:subject>
+                                    <mods:subject>
+                                        <mods:topic authority="gnd" authorityURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4023922-6">Hebräisch</mods:topic>
+                                    </mods:subject>
+                                    <mods:identifier type="urn">urn:nbn:de:hebis:30:2-1150</mods:identifier>
+                                    <mods:relatedItem type="constituent">
+                                        <mods:titleInfo>
+                                            <mods:title>Le-maʿalat hazkārat hat-tešûvā</mods:title>
+                                        </mods:titleInfo>
+                                        <mods:note type="statement of responsibility">Moses Ben-Jakob Hagiz</mods:note>
+                                    </mods:relatedItem>
+                                    <mods:extension><vlz:externalType
+                                            xmlns:vlz="http://visuallibrary.net/vlz/1.0/"
+                                            recordSyntax="pica" code="Oa"/></mods:extension>
+                                    <mods:recordInfo>
+                                        <mods:recordCreationDate encoding="marc">17-11-06</mods:recordCreationDate>
+                                        <mods:recordChangeDate encoding="marc">23-06-14</mods:recordChangeDate>
+                                        <mods:recordIdentifier source="ubffmwjd">182620263</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:mods>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:dmdSec>
+                    <mets:amdSec ID="amd1731030">
+                        <mets:rightsMD ID="rights1731030">
+                            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                                <mets:xmlData>
+                                    <dv:rights xmlns:dv="http://dfg-viewer.de/">
+                                        <dv:ownerLogo>http://sammlungen.ub.uni-frankfurt.de/domainresource/static/graphics/connectors/viewerLogo.gif</dv:ownerLogo>
+                                        <dv:ownerSiteURL>http://sammlungen.ub.uni-frankfurt.de</dv:ownerSiteURL>
+                                    </dv:rights>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:rightsMD>
+                        <mets:digiprovMD ID="digiprov1731030">
+                            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                                <mets:xmlData>
+                                    <dv:links xmlns:dv="http://dfg-viewer.de/">
+                                        <dv:reference>http://lbsopac.rz.uni-frankfurt.de/CMD?ACT=SRCHA&amp;IKT=6015&amp;DB=30&amp;TRM=ppn:182620263</dv:reference>
+                                        <dv:presentation>http://sammlungen.ub.uni-frankfurt.de/id/1731030</dv:presentation>
+                                    </dv:links>
+                                </mets:xmlData>
+                            </mets:mdWrap>
+                        </mets:digiprovMD>
+                    </mets:amdSec>
+                    <mets:fileSec>
+                        <mets:fileGrp USE="DOWNLOAD">
+                            <mets:file MIMETYPE="application/pdf"
+                                CHECKSUM="d34c40eb302a85bfb84d966f88601bf94efd42d2" SIZE="19862819"
+                                CHECKSUMTYPE="SHA-1" CREATED="2012-08-30T06:44:03Z" ID="PDF_1731030">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/pdf/1731030"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="FRONTIMAGE">
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_FRONTIMAGE_1731037">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1731037"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="DEFAULT">
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731034">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731034"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731035">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731035"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731036">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731036"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731037">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731037"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731038">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731038"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731039">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731039"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731040">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731040"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731041">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731041"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731042">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731042"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731043">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731043"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731044">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731044"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731045">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731045"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731046">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731046"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731047">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731047"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731048">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731048"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731049">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731049"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731050">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731050"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731051">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731051"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731052">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731052"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731053">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731053"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731054">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731054"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731055">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731055"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731056">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731056"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731057">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731057"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731058">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731058"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731059">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731059"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731060">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731060"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731061">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731061"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731062">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731062"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731063">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731063"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731064">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731064"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731065">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731065"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731066">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731066"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731067">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731067"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731068">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731068"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731069">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731069"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731070">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731070"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731071">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731071"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731072">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731072"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731073">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731073"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731074">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731074"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731075">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731075"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731076">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731076"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_DEFAULT_1731077">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731077"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731078">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731078"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731079">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731079"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731081">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731081"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731082">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731082"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731083">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731083"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731084">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731084"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731085">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731085"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731086">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731086"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731087">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731087"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731088">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731088"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731089">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731089"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731090">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731090"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731091">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731091"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731092">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731092"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731093">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731093"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731094">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731094"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731095">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731095"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731096">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731096"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731097">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731097"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731098">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731098"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731099">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731099"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731100">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731100"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731101">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731101"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731102">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731102"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731103">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731103"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_DEFAULT_1731104">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731104"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_DEFAULT_1731105">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731105"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_DEFAULT_1731106">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731106"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_DEFAULT_1731107">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731107"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_DEFAULT_1731108">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/1731108"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="THUMBS">
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731034">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731034"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731035">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731035"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731036">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731036"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731037">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731037"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731038">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731038"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731039">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731039"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731040">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731040"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731041">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731041"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731042">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731042"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731043">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731043"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731044">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731044"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731045">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731045"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731046">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731046"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731047">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731047"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731048">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731048"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731049">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731049"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731050">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731050"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731051">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731051"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731052">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731052"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731053">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731053"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731054">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731054"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731055">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731055"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731056">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731056"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731057">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731057"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731058">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731058"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731059">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731059"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731060">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731060"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731061">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731061"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731062">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731062"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731063">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731063"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731064">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731064"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731065">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731065"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731066">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731066"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731067">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731067"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731068">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731068"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731069">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731069"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731070">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731070"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731071">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731071"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731072">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731072"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731073">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731073"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731074">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731074"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731075">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731075"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731076">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731076"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_THUMBS_1731077">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731077"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731078">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731078"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731079">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731079"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731081">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731081"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731082">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731082"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731083">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731083"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731084">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731084"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731085">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731085"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731086">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731086"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731087">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731087"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731088">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731088"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731089">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731089"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731090">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731090"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731091">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731091"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731092">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731092"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731093">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731093"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731094">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731094"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731095">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731095"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731096">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731096"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731097">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731097"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731098">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731098"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731099">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731099"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731100">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731100"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731101">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731101"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731102">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731102"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731103">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731103"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_THUMBS_1731104">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731104"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_THUMBS_1731105">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731105"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_THUMBS_1731106">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731106"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_THUMBS_1731107">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731107"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_THUMBS_1731108">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/128/1731108"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="MIN">
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731034">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731034"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731035">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731035"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731036">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731036"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731037">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731037"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731038">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731038"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731039">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731039"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731040">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731040"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731041">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731041"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731042">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731042"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731043">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731043"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731044">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731044"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731045">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731045"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731046">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731046"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731047">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731047"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731048">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731048"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731049">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731049"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731050">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731050"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731051">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731051"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731052">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731052"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731053">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731053"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731054">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731054"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731055">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731055"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731056">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731056"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731057">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731057"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731058">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731058"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731059">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731059"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731060">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731060"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731061">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731061"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731062">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731062"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731063">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731063"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731064">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731064"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731065">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731065"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731066">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731066"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731067">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731067"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731068">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731068"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731069">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731069"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731070">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731070"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731071">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731071"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731072">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731072"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731073">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731073"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731074">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731074"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731075">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731075"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731076">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731076"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MIN_1731077">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731077"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731078">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731078"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731079">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731079"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731081">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731081"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731082">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731082"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731083">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731083"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731084">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731084"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731085">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731085"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731086">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731086"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731087">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731087"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731088">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731088"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731089">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731089"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731090">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731090"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731091">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731091"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731092">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731092"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731093">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731093"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731094">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731094"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731095">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731095"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731096">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731096"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731097">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731097"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731098">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731098"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731099">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731099"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731100">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731100"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731101">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731101"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731102">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731102"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731103">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731103"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MIN_1731104">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731104"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MIN_1731105">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731105"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MIN_1731106">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731106"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MIN_1731107">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731107"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MIN_1731108">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/600/1731108"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                        <mets:fileGrp USE="MAX">
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731034">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731034"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731035">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731035"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731036">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731036"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731037">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731037"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731038">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731038"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731039">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731039"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731040">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731040"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731041">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731041"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731042">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731042"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731043">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731043"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731044">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731044"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731045">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731045"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731046">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731046"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731047">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731047"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731048">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731048"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731049">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731049"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731050">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731050"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731051">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731051"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731052">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731052"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731053">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731053"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731054">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731054"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731055">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731055"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731056">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731056"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731057">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731057"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731058">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731058"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731059">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731059"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731060">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731060"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731061">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731061"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731062">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731062"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731063">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731063"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731064">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731064"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731065">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731065"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731066">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731066"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731067">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731067"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731068">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731068"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731069">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731069"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731070">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731070"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731071">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731071"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731072">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731072"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731073">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731073"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731074">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731074"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731075">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731075"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731076">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731076"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:27Z"
+                                ID="IMG_MAX_1731077">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731077"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731078">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731078"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731079">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731079"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731081">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731081"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731082">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731082"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731083">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731083"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731084">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731084"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731085">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731085"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731086">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731086"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731087">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731087"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731088">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731088"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731089">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731089"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731090">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731090"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731091">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731091"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731092">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731092"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731093">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731093"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731094">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731094"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731095">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731095"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731096">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731096"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731097">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731097"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731098">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731098"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731099">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731099"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731100">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731100"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731101">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731101"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731102">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731102"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731103">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731103"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:28Z"
+                                ID="IMG_MAX_1731104">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731104"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MAX_1731105">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731105"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MAX_1731106">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731106"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MAX_1731107">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731107"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                            <mets:file MIMETYPE="image/jpeg" CREATED="2011-04-05T07:38:29Z"
+                                ID="IMG_MAX_1731108">
+                                <mets:FLocat
+                                    xlink:href="http://sammlungen.ub.uni-frankfurt.de/download/webcache/1504/1731108"
+                                    LOCTYPE="URL"/>
+                            </mets:file>
+                        </mets:fileGrp>
+                    </mets:fileSec>
+                    <mets:structMap TYPE="PHYSICAL">
+                        <mets:div TYPE="physSequence" ID="physroot">
+                            <mets:div ID="phys1731034" TYPE="page" LABEL="[Seite 2]" ORDER="1">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731034"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731034"/>
+                                <mets:fptr FILEID="IMG_MIN_1731034"/>
+                                <mets:fptr FILEID="IMG_MAX_1731034"/>
+                            </mets:div>
+                            <mets:div ID="phys1731035" TYPE="page" LABEL="[Seite 3]" ORDER="2">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731035"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731035"/>
+                                <mets:fptr FILEID="IMG_MIN_1731035"/>
+                                <mets:fptr FILEID="IMG_MAX_1731035"/>
+                            </mets:div>
+                            <mets:div ID="phys1731036" TYPE="page" LABEL="[Seite 4]" ORDER="3">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731036"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731036"/>
+                                <mets:fptr FILEID="IMG_MIN_1731036"/>
+                                <mets:fptr FILEID="IMG_MAX_1731036"/>
+                            </mets:div>
+                            <mets:div ID="phys1731037" TYPE="page" LABEL="[Seite 5]" ORDER="4">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731037"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731037"/>
+                                <mets:fptr FILEID="IMG_MIN_1731037"/>
+                                <mets:fptr FILEID="IMG_MAX_1731037"/>
+                            </mets:div>
+                            <mets:div ID="phys1731038" TYPE="page" LABEL="[Seite 6]" ORDER="5">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731038"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731038"/>
+                                <mets:fptr FILEID="IMG_MIN_1731038"/>
+                                <mets:fptr FILEID="IMG_MAX_1731038"/>
+                            </mets:div>
+                            <mets:div ID="phys1731039" TYPE="page" LABEL="[Seite 7]" ORDER="6">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731039"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731039"/>
+                                <mets:fptr FILEID="IMG_MIN_1731039"/>
+                                <mets:fptr FILEID="IMG_MAX_1731039"/>
+                            </mets:div>
+                            <mets:div ID="phys1731040" TYPE="page" LABEL="[Seite 8]" ORDER="7">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731040"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731040"/>
+                                <mets:fptr FILEID="IMG_MIN_1731040"/>
+                                <mets:fptr FILEID="IMG_MAX_1731040"/>
+                            </mets:div>
+                            <mets:div ID="phys1731041" TYPE="page" LABEL="[Seite 9]" ORDER="8">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731041"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731041"/>
+                                <mets:fptr FILEID="IMG_MIN_1731041"/>
+                                <mets:fptr FILEID="IMG_MAX_1731041"/>
+                            </mets:div>
+                            <mets:div ID="phys1731042" TYPE="page" LABEL="[Seite 10]" ORDER="9">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731042"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731042"/>
+                                <mets:fptr FILEID="IMG_MIN_1731042"/>
+                                <mets:fptr FILEID="IMG_MAX_1731042"/>
+                            </mets:div>
+                            <mets:div ID="phys1731043" TYPE="page" LABEL="[Seite 11]" ORDER="10">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731043"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731043"/>
+                                <mets:fptr FILEID="IMG_MIN_1731043"/>
+                                <mets:fptr FILEID="IMG_MAX_1731043"/>
+                            </mets:div>
+                            <mets:div ID="phys1731044" TYPE="page" LABEL="[Seite 12]" ORDER="11">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731044"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731044"/>
+                                <mets:fptr FILEID="IMG_MIN_1731044"/>
+                                <mets:fptr FILEID="IMG_MAX_1731044"/>
+                            </mets:div>
+                            <mets:div ID="phys1731045" TYPE="page" LABEL="[Seite 13]" ORDER="12">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731045"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731045"/>
+                                <mets:fptr FILEID="IMG_MIN_1731045"/>
+                                <mets:fptr FILEID="IMG_MAX_1731045"/>
+                            </mets:div>
+                            <mets:div ID="phys1731046" TYPE="page" LABEL="[Seite 14]" ORDER="13">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731046"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731046"/>
+                                <mets:fptr FILEID="IMG_MIN_1731046"/>
+                                <mets:fptr FILEID="IMG_MAX_1731046"/>
+                            </mets:div>
+                            <mets:div ID="phys1731047" TYPE="page" LABEL="[Seite 15]" ORDER="14">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731047"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731047"/>
+                                <mets:fptr FILEID="IMG_MIN_1731047"/>
+                                <mets:fptr FILEID="IMG_MAX_1731047"/>
+                            </mets:div>
+                            <mets:div ID="phys1731048" TYPE="page" LABEL="[Seite 16]" ORDER="15">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731048"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731048"/>
+                                <mets:fptr FILEID="IMG_MIN_1731048"/>
+                                <mets:fptr FILEID="IMG_MAX_1731048"/>
+                            </mets:div>
+                            <mets:div ID="phys1731049" TYPE="page" LABEL="[Seite 17]" ORDER="16">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731049"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731049"/>
+                                <mets:fptr FILEID="IMG_MIN_1731049"/>
+                                <mets:fptr FILEID="IMG_MAX_1731049"/>
+                            </mets:div>
+                            <mets:div ID="phys1731050" TYPE="page" LABEL="[Seite 18]" ORDER="17">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731050"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731050"/>
+                                <mets:fptr FILEID="IMG_MIN_1731050"/>
+                                <mets:fptr FILEID="IMG_MAX_1731050"/>
+                            </mets:div>
+                            <mets:div ID="phys1731051" TYPE="page" LABEL="[Seite 19]" ORDER="18">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731051"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731051"/>
+                                <mets:fptr FILEID="IMG_MIN_1731051"/>
+                                <mets:fptr FILEID="IMG_MAX_1731051"/>
+                            </mets:div>
+                            <mets:div ID="phys1731052" TYPE="page" LABEL="[Seite 20]" ORDER="19">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731052"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731052"/>
+                                <mets:fptr FILEID="IMG_MIN_1731052"/>
+                                <mets:fptr FILEID="IMG_MAX_1731052"/>
+                            </mets:div>
+                            <mets:div ID="phys1731053" TYPE="page" LABEL="[Seite 21]" ORDER="20">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731053"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731053"/>
+                                <mets:fptr FILEID="IMG_MIN_1731053"/>
+                                <mets:fptr FILEID="IMG_MAX_1731053"/>
+                            </mets:div>
+                            <mets:div ID="phys1731054" TYPE="page" LABEL="[Seite 22]" ORDER="21">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731054"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731054"/>
+                                <mets:fptr FILEID="IMG_MIN_1731054"/>
+                                <mets:fptr FILEID="IMG_MAX_1731054"/>
+                            </mets:div>
+                            <mets:div ID="phys1731055" TYPE="page" LABEL="[Seite 23]" ORDER="22">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731055"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731055"/>
+                                <mets:fptr FILEID="IMG_MIN_1731055"/>
+                                <mets:fptr FILEID="IMG_MAX_1731055"/>
+                            </mets:div>
+                            <mets:div ID="phys1731056" TYPE="page" LABEL="[Seite 24]" ORDER="23">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731056"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731056"/>
+                                <mets:fptr FILEID="IMG_MIN_1731056"/>
+                                <mets:fptr FILEID="IMG_MAX_1731056"/>
+                            </mets:div>
+                            <mets:div ID="phys1731057" TYPE="page" LABEL="[Seite 25]" ORDER="24">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731057"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731057"/>
+                                <mets:fptr FILEID="IMG_MIN_1731057"/>
+                                <mets:fptr FILEID="IMG_MAX_1731057"/>
+                            </mets:div>
+                            <mets:div ID="phys1731058" TYPE="page" LABEL="[Seite 26]" ORDER="25">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731058"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731058"/>
+                                <mets:fptr FILEID="IMG_MIN_1731058"/>
+                                <mets:fptr FILEID="IMG_MAX_1731058"/>
+                            </mets:div>
+                            <mets:div ID="phys1731059" TYPE="page" LABEL="[Seite 27]" ORDER="26">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731059"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731059"/>
+                                <mets:fptr FILEID="IMG_MIN_1731059"/>
+                                <mets:fptr FILEID="IMG_MAX_1731059"/>
+                            </mets:div>
+                            <mets:div ID="phys1731060" TYPE="page" LABEL="[Seite 28]" ORDER="27">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731060"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731060"/>
+                                <mets:fptr FILEID="IMG_MIN_1731060"/>
+                                <mets:fptr FILEID="IMG_MAX_1731060"/>
+                            </mets:div>
+                            <mets:div ID="phys1731061" TYPE="page" LABEL="[Seite 29]" ORDER="28">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731061"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731061"/>
+                                <mets:fptr FILEID="IMG_MIN_1731061"/>
+                                <mets:fptr FILEID="IMG_MAX_1731061"/>
+                            </mets:div>
+                            <mets:div ID="phys1731062" TYPE="page" LABEL="[Seite 30]" ORDER="29">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731062"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731062"/>
+                                <mets:fptr FILEID="IMG_MIN_1731062"/>
+                                <mets:fptr FILEID="IMG_MAX_1731062"/>
+                            </mets:div>
+                            <mets:div ID="phys1731063" TYPE="page" LABEL="[Seite 31]" ORDER="30">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731063"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731063"/>
+                                <mets:fptr FILEID="IMG_MIN_1731063"/>
+                                <mets:fptr FILEID="IMG_MAX_1731063"/>
+                            </mets:div>
+                            <mets:div ID="phys1731064" TYPE="page" LABEL="[Seite 32]" ORDER="31">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731064"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731064"/>
+                                <mets:fptr FILEID="IMG_MIN_1731064"/>
+                                <mets:fptr FILEID="IMG_MAX_1731064"/>
+                            </mets:div>
+                            <mets:div ID="phys1731065" TYPE="page" LABEL="[Seite 33]" ORDER="32">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731065"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731065"/>
+                                <mets:fptr FILEID="IMG_MIN_1731065"/>
+                                <mets:fptr FILEID="IMG_MAX_1731065"/>
+                            </mets:div>
+                            <mets:div ID="phys1731066" TYPE="page" LABEL="[Seite 34]" ORDER="33">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731066"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731066"/>
+                                <mets:fptr FILEID="IMG_MIN_1731066"/>
+                                <mets:fptr FILEID="IMG_MAX_1731066"/>
+                            </mets:div>
+                            <mets:div ID="phys1731067" TYPE="page" LABEL="[Seite 35]" ORDER="34">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731067"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731067"/>
+                                <mets:fptr FILEID="IMG_MIN_1731067"/>
+                                <mets:fptr FILEID="IMG_MAX_1731067"/>
+                            </mets:div>
+                            <mets:div ID="phys1731068" TYPE="page" LABEL="[Seite 36]" ORDER="35">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731068"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731068"/>
+                                <mets:fptr FILEID="IMG_MIN_1731068"/>
+                                <mets:fptr FILEID="IMG_MAX_1731068"/>
+                            </mets:div>
+                            <mets:div ID="phys1731069" TYPE="page" LABEL="[Seite 37]" ORDER="36">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731069"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731069"/>
+                                <mets:fptr FILEID="IMG_MIN_1731069"/>
+                                <mets:fptr FILEID="IMG_MAX_1731069"/>
+                            </mets:div>
+                            <mets:div ID="phys1731070" TYPE="page" LABEL="[Seite 38]" ORDER="37">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731070"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731070"/>
+                                <mets:fptr FILEID="IMG_MIN_1731070"/>
+                                <mets:fptr FILEID="IMG_MAX_1731070"/>
+                            </mets:div>
+                            <mets:div ID="phys1731071" TYPE="page" LABEL="[Seite 39]" ORDER="38">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731071"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731071"/>
+                                <mets:fptr FILEID="IMG_MIN_1731071"/>
+                                <mets:fptr FILEID="IMG_MAX_1731071"/>
+                            </mets:div>
+                            <mets:div ID="phys1731072" TYPE="page" LABEL="[Seite 40]" ORDER="39">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731072"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731072"/>
+                                <mets:fptr FILEID="IMG_MIN_1731072"/>
+                                <mets:fptr FILEID="IMG_MAX_1731072"/>
+                            </mets:div>
+                            <mets:div ID="phys1731073" TYPE="page" LABEL="[Seite 41]" ORDER="40">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731073"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731073"/>
+                                <mets:fptr FILEID="IMG_MIN_1731073"/>
+                                <mets:fptr FILEID="IMG_MAX_1731073"/>
+                            </mets:div>
+                            <mets:div ID="phys1731074" TYPE="page" LABEL="[Seite 42]" ORDER="41">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731074"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731074"/>
+                                <mets:fptr FILEID="IMG_MIN_1731074"/>
+                                <mets:fptr FILEID="IMG_MAX_1731074"/>
+                            </mets:div>
+                            <mets:div ID="phys1731075" TYPE="page" LABEL="[Seite 43]" ORDER="42">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731075"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731075"/>
+                                <mets:fptr FILEID="IMG_MIN_1731075"/>
+                                <mets:fptr FILEID="IMG_MAX_1731075"/>
+                            </mets:div>
+                            <mets:div ID="phys1731076" TYPE="page" LABEL="[Seite 44]" ORDER="43">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731076"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731076"/>
+                                <mets:fptr FILEID="IMG_MIN_1731076"/>
+                                <mets:fptr FILEID="IMG_MAX_1731076"/>
+                            </mets:div>
+                            <mets:div ID="phys1731077" TYPE="page" LABEL="[Seite 45]" ORDER="44">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731077"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731077"/>
+                                <mets:fptr FILEID="IMG_MIN_1731077"/>
+                                <mets:fptr FILEID="IMG_MAX_1731077"/>
+                            </mets:div>
+                            <mets:div ID="phys1731078" TYPE="page" LABEL="[Seite 46]" ORDER="45">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731078"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731078"/>
+                                <mets:fptr FILEID="IMG_MIN_1731078"/>
+                                <mets:fptr FILEID="IMG_MAX_1731078"/>
+                            </mets:div>
+                            <mets:div ID="phys1731079" TYPE="page" LABEL="[Seite 47]" ORDER="46">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731079"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731079"/>
+                                <mets:fptr FILEID="IMG_MIN_1731079"/>
+                                <mets:fptr FILEID="IMG_MAX_1731079"/>
+                            </mets:div>
+                            <mets:div ID="phys1731081" TYPE="page" LABEL="[Seite 48]" ORDER="47">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731081"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731081"/>
+                                <mets:fptr FILEID="IMG_MIN_1731081"/>
+                                <mets:fptr FILEID="IMG_MAX_1731081"/>
+                            </mets:div>
+                            <mets:div ID="phys1731082" TYPE="page" LABEL="[Seite 49]" ORDER="48">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731082"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731082"/>
+                                <mets:fptr FILEID="IMG_MIN_1731082"/>
+                                <mets:fptr FILEID="IMG_MAX_1731082"/>
+                            </mets:div>
+                            <mets:div ID="phys1731083" TYPE="page" LABEL="[Seite 50]" ORDER="49">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731083"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731083"/>
+                                <mets:fptr FILEID="IMG_MIN_1731083"/>
+                                <mets:fptr FILEID="IMG_MAX_1731083"/>
+                            </mets:div>
+                            <mets:div ID="phys1731084" TYPE="page" LABEL="[Seite 51]" ORDER="50">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731084"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731084"/>
+                                <mets:fptr FILEID="IMG_MIN_1731084"/>
+                                <mets:fptr FILEID="IMG_MAX_1731084"/>
+                            </mets:div>
+                            <mets:div ID="phys1731085" TYPE="page" LABEL="[Seite 52]" ORDER="51">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731085"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731085"/>
+                                <mets:fptr FILEID="IMG_MIN_1731085"/>
+                                <mets:fptr FILEID="IMG_MAX_1731085"/>
+                            </mets:div>
+                            <mets:div ID="phys1731086" TYPE="page" LABEL="[Seite 53]" ORDER="52">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731086"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731086"/>
+                                <mets:fptr FILEID="IMG_MIN_1731086"/>
+                                <mets:fptr FILEID="IMG_MAX_1731086"/>
+                            </mets:div>
+                            <mets:div ID="phys1731087" TYPE="page" LABEL="[Seite 54]" ORDER="53">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731087"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731087"/>
+                                <mets:fptr FILEID="IMG_MIN_1731087"/>
+                                <mets:fptr FILEID="IMG_MAX_1731087"/>
+                            </mets:div>
+                            <mets:div ID="phys1731088" TYPE="page" LABEL="[Seite 55]" ORDER="54">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731088"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731088"/>
+                                <mets:fptr FILEID="IMG_MIN_1731088"/>
+                                <mets:fptr FILEID="IMG_MAX_1731088"/>
+                            </mets:div>
+                            <mets:div ID="phys1731089" TYPE="page" LABEL="[Seite 56]" ORDER="55">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731089"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731089"/>
+                                <mets:fptr FILEID="IMG_MIN_1731089"/>
+                                <mets:fptr FILEID="IMG_MAX_1731089"/>
+                            </mets:div>
+                            <mets:div ID="phys1731090" TYPE="page" LABEL="[Seite 57]" ORDER="56">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731090"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731090"/>
+                                <mets:fptr FILEID="IMG_MIN_1731090"/>
+                                <mets:fptr FILEID="IMG_MAX_1731090"/>
+                            </mets:div>
+                            <mets:div ID="phys1731091" TYPE="page" LABEL="[Seite 58]" ORDER="57">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731091"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731091"/>
+                                <mets:fptr FILEID="IMG_MIN_1731091"/>
+                                <mets:fptr FILEID="IMG_MAX_1731091"/>
+                            </mets:div>
+                            <mets:div ID="phys1731092" TYPE="page" LABEL="[Seite 59]" ORDER="58">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731092"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731092"/>
+                                <mets:fptr FILEID="IMG_MIN_1731092"/>
+                                <mets:fptr FILEID="IMG_MAX_1731092"/>
+                            </mets:div>
+                            <mets:div ID="phys1731093" TYPE="page" LABEL="[Seite 60]" ORDER="59">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731093"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731093"/>
+                                <mets:fptr FILEID="IMG_MIN_1731093"/>
+                                <mets:fptr FILEID="IMG_MAX_1731093"/>
+                            </mets:div>
+                            <mets:div ID="phys1731094" TYPE="page" LABEL="[Seite 61]" ORDER="60">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731094"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731094"/>
+                                <mets:fptr FILEID="IMG_MIN_1731094"/>
+                                <mets:fptr FILEID="IMG_MAX_1731094"/>
+                            </mets:div>
+                            <mets:div ID="phys1731095" TYPE="page" LABEL="[Seite 62]" ORDER="61">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731095"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731095"/>
+                                <mets:fptr FILEID="IMG_MIN_1731095"/>
+                                <mets:fptr FILEID="IMG_MAX_1731095"/>
+                            </mets:div>
+                            <mets:div ID="phys1731096" TYPE="page" LABEL="[Seite 63]" ORDER="62">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731096"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731096"/>
+                                <mets:fptr FILEID="IMG_MIN_1731096"/>
+                                <mets:fptr FILEID="IMG_MAX_1731096"/>
+                            </mets:div>
+                            <mets:div ID="phys1731097" TYPE="page" LABEL="[Seite 64]" ORDER="63">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731097"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731097"/>
+                                <mets:fptr FILEID="IMG_MIN_1731097"/>
+                                <mets:fptr FILEID="IMG_MAX_1731097"/>
+                            </mets:div>
+                            <mets:div ID="phys1731098" TYPE="page" LABEL="[Seite 65]" ORDER="64">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731098"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731098"/>
+                                <mets:fptr FILEID="IMG_MIN_1731098"/>
+                                <mets:fptr FILEID="IMG_MAX_1731098"/>
+                            </mets:div>
+                            <mets:div ID="phys1731099" TYPE="page" LABEL="[Seite 66]" ORDER="65">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731099"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731099"/>
+                                <mets:fptr FILEID="IMG_MIN_1731099"/>
+                                <mets:fptr FILEID="IMG_MAX_1731099"/>
+                            </mets:div>
+                            <mets:div ID="phys1731100" TYPE="page" LABEL="[Seite 67]" ORDER="66">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731100"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731100"/>
+                                <mets:fptr FILEID="IMG_MIN_1731100"/>
+                                <mets:fptr FILEID="IMG_MAX_1731100"/>
+                            </mets:div>
+                            <mets:div ID="phys1731101" TYPE="page" LABEL="[Seite 68]" ORDER="67">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731101"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731101"/>
+                                <mets:fptr FILEID="IMG_MIN_1731101"/>
+                                <mets:fptr FILEID="IMG_MAX_1731101"/>
+                            </mets:div>
+                            <mets:div ID="phys1731102" TYPE="page" LABEL="[Seite 69]" ORDER="68">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731102"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731102"/>
+                                <mets:fptr FILEID="IMG_MIN_1731102"/>
+                                <mets:fptr FILEID="IMG_MAX_1731102"/>
+                            </mets:div>
+                            <mets:div ID="phys1731103" TYPE="page" LABEL="[Seite 70]" ORDER="69">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731103"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731103"/>
+                                <mets:fptr FILEID="IMG_MIN_1731103"/>
+                                <mets:fptr FILEID="IMG_MAX_1731103"/>
+                            </mets:div>
+                            <mets:div ID="phys1731104" TYPE="page" LABEL="[Seite 71]" ORDER="70">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731104"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731104"/>
+                                <mets:fptr FILEID="IMG_MIN_1731104"/>
+                                <mets:fptr FILEID="IMG_MAX_1731104"/>
+                            </mets:div>
+                            <mets:div ID="phys1731105" TYPE="page" LABEL="[Seite 72]" ORDER="71">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731105"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731105"/>
+                                <mets:fptr FILEID="IMG_MIN_1731105"/>
+                                <mets:fptr FILEID="IMG_MAX_1731105"/>
+                            </mets:div>
+                            <mets:div ID="phys1731106" TYPE="page" LABEL="[Seite 73]" ORDER="72">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731106"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731106"/>
+                                <mets:fptr FILEID="IMG_MIN_1731106"/>
+                                <mets:fptr FILEID="IMG_MAX_1731106"/>
+                            </mets:div>
+                            <mets:div ID="phys1731107" TYPE="page" LABEL="[Seite 74]" ORDER="73">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731107"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731107"/>
+                                <mets:fptr FILEID="IMG_MIN_1731107"/>
+                                <mets:fptr FILEID="IMG_MAX_1731107"/>
+                            </mets:div>
+                            <mets:div ID="phys1731108" TYPE="page" LABEL="[Seite 75]" ORDER="74">
+                                <mets:fptr FILEID="IMG_DEFAULT_1731108"/>
+                                <mets:fptr FILEID="IMG_THUMBS_1731108"/>
+                                <mets:fptr FILEID="IMG_MIN_1731108"/>
+                                <mets:fptr FILEID="IMG_MAX_1731108"/>
+                            </mets:div>
+                        </mets:div>
+                    </mets:structMap>
+                    <mets:structMap TYPE="LOGICAL">
+                        <mets:div ID="log1731030" DMDID="md1731030" ADMID="amd1731030"
+                            TYPE="monograph" LABEL="Ôrḥôt ḥayyîm" ORDER="1"
+                            CONTENTIDS="urn:nbn:de:hebis:30:2-1150">
+                            <mets:mptr LOCTYPE="URL"
+                                xlink:href="http://sammlungen.ub.uni-frankfurt.de/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=1731030"/>
+                            <mets:fptr FILEID="PDF_1731030"/>
+                            <mets:fptr FILEID="IMG_FRONTIMAGE_1731037"/>
+                        </mets:div>
+                    </mets:structMap>
+                    <mets:structLink>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731034"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731035"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731036"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731037"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731038"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731039"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731040"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731041"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731042"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731043"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731044"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731045"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731046"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731047"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731048"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731049"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731050"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731051"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731052"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731053"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731054"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731055"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731056"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731057"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731058"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731059"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731060"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731061"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731062"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731063"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731064"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731065"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731066"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731067"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731068"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731069"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731070"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731071"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731072"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731073"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731074"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731075"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731076"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731077"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731078"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731079"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731081"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731082"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731083"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731084"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731085"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731086"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731087"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731088"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731089"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731090"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731091"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731092"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731093"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731094"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731095"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731096"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731097"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731098"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731099"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731100"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731101"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731102"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731103"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731104"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731105"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731106"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731107"/>
+                        <mets:smLink xlink:from="log1731030" xlink:to="phys1731108"/>
+                    </mets:structLink>
+                </mets:mets>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outputList>
+   <cortex xmlns="http://www.deutsche-digitale-bibliothek.de/cortex"
+           xmlns:institution="http://www.deutsche-digitale-bibliothek.de/institution"
+           xmlns:item="http://www.deutsche-digitale-bibliothek.de/item">
+      <properties>
+         <cortex-type>Kultur</cortex-type>
+      </properties>
+      <edm>
+         <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                  xmlns:ore="http://www.openarchives.org/ore/terms/"
+                  xmlns:owl="http://www.w3.org/2002/07/owl#"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                  xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+                  xmlns:ddb="http://www.ddb.de/"
+                  xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#">
+            <ore:Aggregation rdf:about="#ub-ffm:aggregation:judaica:urn:nbn:de:hebis:30:2-2781">
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+               <edm:aggregatedCHO rdf:resource="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-2781"/>
+               <edm:dataProvider rdf:resource="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+               <edm:dataProvider>Universitätsbibliothek JCS Frankfurt am Main</edm:dataProvider>
+               <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-2781"/>
+               <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1755899"/>
+               <edm:provider>Judaica Europeana</edm:provider>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+            </ore:Aggregation>
+            <edm:ProvidedCHO rdf:about="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-2781">
+               <dc:contributor>Eidlitz, Abraham M.</dc:contributor>
+               <dc:description xml:lang="de">Prag : Mosche Katz, 1775, 5535 [1774/75]</dc:description>
+               <dc:description xml:lang="de">Digitalisat der Ausg. Prag, 1774/75</dc:description>
+               <dc:description xml:lang="de">Text teilw. hebr., teilw. jidd.</dc:description>
+               <dc:description xml:lang="de">Übers. d. Hauptsacht.: Die Kunst des Rechnens</dc:description>
+               <dc:format xml:lang="de">281, [3] Bl.</dc:format>
+               <dc:identifier>urn:nbn:de:hebis:30:2-2781</dc:identifier>
+               <dc:language>he</dc:language>
+               <dc:language>yi</dc:language>
+               <dc:publisher>Prag : Mosche Katz</dc:publisher>
+               <dc:subject>Lehrbuch</dc:subject>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4023922-6"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4633636-9"/>
+               <dc:title>Sēfer Meleket maḥaševet / še-ḥibbartî anî haq-qaṭ Mōše Zeraḥ Aydlîṣ mip-Prâg</dc:title>
+               <dc:type xml:lang="en">Monograph</dc:type>
+               <dcterms:issued>1775</dcterms:issued>
+               <dcterms:subject rdf:resource="#ub-ffm:concept:judaica:urn:nbn:de:hebis:30:2-2781:2_Lehrbuch"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4023922-6"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4633636-9"/>
+               <ddb:aggregationEntity>false</ddb:aggregationEntity>
+               <ddb:hierarchyPosition>ord000000001</ddb:hierarchyPosition>
+               <ddb:hierarchyType>htype_021</ddb:hierarchyType>
+               <edm:currentLocation rdf:resource="http://d-nb.info/gnd/4018118-2"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-2781:created"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-2781:published"/>
+               <edm:hasType rdf:resource="http://ddb.vocnet.org/hierarchietyp/ht021"/>
+               <edm:type>TEXT</edm:type>
+            </edm:ProvidedCHO>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main">
+               <crm:P74_has_current_or_former_residence rdf:resource="http://d-nb.info/gnd/4024729-6"/>
+               <owl:sameAs rdf:resource="http://d-nb.info/gnd/10096915-X"/>
+               <owl:sameAs rdf:resource="http://ld.zdb-services.de/data/organisations/DE-30"/>
+               <owl:sameAs rdf:resource="http://viaf.org/viaf/123368197"/>
+               <rdf:type rdf:resource="http://ddb.vocnet.org/sparte/sparte002"/>
+               <skos:prefLabel xml:lang="de">Universitätsbibliothek JCS Frankfurt am Main</skos:prefLabel>
+            </edm:Agent>
+            <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-2781">
+               <dc:format>text/html</dc:format>
+               <dc:type rdf:resource="http://ddb.vocnet.org/medientyp/mt003"/>
+               <dcterms:created>1999</dcterms:created>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1755899">
+               <dc:format>image/jpeg</dc:format>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/medientyp/mt003">
+               <skos:notation>mediatype_003</skos:notation>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4024729-6">
+               <skos:prefLabel>Hessen</skos:prefLabel>
+            </edm:Place>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/sparte/sparte002">
+               <skos:notation>sec_02</skos:notation>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4023922-6">
+               <skos:prefLabel>Hebräisch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4028614-9">
+               <skos:prefLabel>Jiddisch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4633636-9">
+               <skos:prefLabel>Rechenbuch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="#ub-ffm:concept:judaica:urn:nbn:de:hebis:30:2-2781:2_Lehrbuch">
+               <skos:prefLabel xml:lang="de">Lehrbuch</skos:prefLabel>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4018118-2">
+               <skos:prefLabel>Frankfurt am Main</skos:prefLabel>
+               <wgs84_pos:lat>50.11552</wgs84_pos:lat>
+               <wgs84_pos:long>8.68417</wgs84_pos:long>
+            </edm:Place>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-2781:created">
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-2781:1_Eidlitz__Abraham_M."/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00012"/>
+            </edm:Event>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-2781:published">
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-2781:1_Mosche_Katz"/>
+               <edm:happenedAt rdf:resource="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-2781:1_Prag"/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00228"/>
+               <edm:occuredAt rdf:resource="#ub-ffm:timespan:1775_1775"/>
+               <edm:occuredAt rdf:resource="http://ddb.vocnet.org/zeitvokabular/dat00020"/>
+            </edm:Event>
+            <skos:concept rdf:about="http://ddb.vocnet.org/hierarchietyp/ht021">
+               <skos:prefLabel xml:lang="de">Monografie</skos:prefLabel>
+            </skos:concept>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-2781:1_Eidlitz__Abraham_M.">
+               <skos:prefLabel>Eidlitz, Abraham M.</skos:prefLabel>
+            </edm:Agent>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-2781:1_Mosche_Katz">
+               <skos:prefLabel>Mosche Katz</skos:prefLabel>
+            </edm:Agent>
+            <edm:Place rdf:about="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-2781:1_Prag">
+               <skos:prefLabel xml:lang="de">Prag</skos:prefLabel>
+            </edm:Place>
+            <edm:TimeSpan rdf:about="#ub-ffm:timespan:1775_1775">
+               <edm:begin>1775</edm:begin>
+               <edm:end>1775</edm:end>
+               <skos:prefLabel xml:lang="de">1775</skos:prefLabel>
+            </edm:TimeSpan>
+            <edm:TimeSpan rdf:about="http://ddb.vocnet.org/zeitvokabular/dat00020">
+               <skos:notation>time_61800</skos:notation>
+            </edm:TimeSpan>
+         </rdf:RDF>
+      </edm>
+   </cortex>
+</outputList>

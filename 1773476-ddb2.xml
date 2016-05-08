@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outputList>
+   <cortex xmlns="http://www.deutsche-digitale-bibliothek.de/cortex"
+           xmlns:institution="http://www.deutsche-digitale-bibliothek.de/institution"
+           xmlns:item="http://www.deutsche-digitale-bibliothek.de/item">
+      <properties>
+         <cortex-type>Kultur</cortex-type>
+      </properties>
+      <edm>
+         <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                  xmlns:ore="http://www.openarchives.org/ore/terms/"
+                  xmlns:owl="http://www.w3.org/2002/07/owl#"
+                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                  xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+                  xmlns:ddb="http://www.ddb.de/"
+                  xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#">
+            <ore:Aggregation rdf:about="#ub-ffm:aggregation:judaica:urn:nbn:de:hebis:30:2-4954">
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+               <edm:aggregatedCHO rdf:resource="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-4954"/>
+               <edm:dataProvider rdf:resource="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+               <edm:dataProvider>Universitätsbibliothek JCS Frankfurt am Main</edm:dataProvider>
+               <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-4954"/>
+               <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1773483"/>
+               <edm:provider>Judaica Europeana</edm:provider>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+            </ore:Aggregation>
+            <edm:ProvidedCHO rdf:about="#ub-ffm:item:judaica:urn:nbn:de:hebis:30:2-4954">
+               <dc:contributor>Margaliot, Israel</dc:contributor>
+               <dc:contributor>Schulman</dc:contributor>
+               <dc:description xml:lang="de">Pitesci : "Die Wahrheit", 1887</dc:description>
+               <dc:description xml:lang="de">Digitalisat der Ausg. Pitesci, 1887</dc:description>
+               <dc:description xml:lang="de">In  hebr. Schrift, jidd.</dc:description>
+               <dc:description xml:lang="de">Übers. d. Hauptsacht.: Die Strafe</dc:description>
+               <dc:format xml:lang="de">46, [6] S.</dc:format>
+               <dc:identifier>urn:nbn:de:hebis:30:2-4954</dc:identifier>
+               <dc:language>yi</dc:language>
+               <dc:publisher>Pitesci : "Die Wahrheit"</dc:publisher>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4050479-7"/>
+               <dc:subject rdf:resource="http://d-nb.info/gnd/4071867-0"/>
+               <dc:title xml:lang="yi">Di šṭrafe : iber den gebrochenen šwur oder kampf tzwišen religion und wisen ; ein heksṭ inṭeresanṭer roman / ferfast fon Šulman. Iberzetzṭ und bearbeiṭeṭ fon Jiśroel Margaliot</dc:title>
+               <dc:type xml:lang="en">Monograph</dc:type>
+               <dcterms:issued>1887</dcterms:issued>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4028614-9"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4050479-7"/>
+               <dcterms:subject rdf:resource="http://d-nb.info/gnd/4071867-0"/>
+               <ddb:aggregationEntity>false</ddb:aggregationEntity>
+               <ddb:hierarchyPosition>ord000000001</ddb:hierarchyPosition>
+               <ddb:hierarchyType>htype_021</ddb:hierarchyType>
+               <edm:currentLocation rdf:resource="http://d-nb.info/gnd/4018118-2"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-4954:created"/>
+               <edm:hasMet rdf:resource="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-4954:published"/>
+               <edm:hasType rdf:resource="http://ddb.vocnet.org/hierarchietyp/ht021"/>
+               <edm:type>TEXT</edm:type>
+            </edm:ProvidedCHO>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main">
+               <crm:P74_has_current_or_former_residence rdf:resource="http://d-nb.info/gnd/4024729-6"/>
+               <owl:sameAs rdf:resource="http://d-nb.info/gnd/10096915-X"/>
+               <owl:sameAs rdf:resource="http://ld.zdb-services.de/data/organisations/DE-30"/>
+               <owl:sameAs rdf:resource="http://viaf.org/viaf/123368197"/>
+               <rdf:type rdf:resource="http://ddb.vocnet.org/sparte/sparte002"/>
+               <skos:prefLabel xml:lang="de">Universitätsbibliothek JCS Frankfurt am Main</skos:prefLabel>
+            </edm:Agent>
+            <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-4954">
+               <dc:format>text/html</dc:format>
+               <dc:type rdf:resource="http://ddb.vocnet.org/medientyp/mt003"/>
+               <dcterms:created>1999</dcterms:created>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1773483">
+               <dc:format>image/jpeg</dc:format>
+               <dcterms:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/deed.de"/>
+               <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/medientyp/mt003">
+               <skos:notation>mediatype_003</skos:notation>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4024729-6">
+               <skos:prefLabel>Hessen</skos:prefLabel>
+            </edm:Place>
+            <skos:Concept rdf:about="http://ddb.vocnet.org/sparte/sparte002">
+               <skos:notation>sec_02</skos:notation>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4028614-9">
+               <skos:prefLabel>Jiddisch</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4050479-7">
+               <skos:prefLabel>Roman</skos:prefLabel>
+            </skos:Concept>
+            <skos:Concept rdf:about="http://d-nb.info/gnd/4071867-0">
+               <skos:prefLabel>Glaube</skos:prefLabel>
+            </skos:Concept>
+            <edm:Place rdf:about="http://d-nb.info/gnd/4018118-2">
+               <skos:prefLabel>Frankfurt am Main</skos:prefLabel>
+               <wgs84_pos:lat>50.11552</wgs84_pos:lat>
+               <wgs84_pos:long>8.68417</wgs84_pos:long>
+            </edm:Place>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-4954:created">
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:1_Schulman"/>
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:2_Margaliot__Israel"/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00012"/>
+            </edm:Event>
+            <edm:Event rdf:about="#ub-ffm:event:judaica:urn:nbn:de:hebis:30:2-4954:published">
+               <crm:P11_had_participant rdf:resource="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:1_%22Die_Wahrheit%22"/>
+               <edm:happenedAt rdf:resource="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-4954:1_Pitesci"/>
+               <edm:hasType rdf:resource="http://terminology.lido-schema.org/lido00228"/>
+               <edm:occuredAt rdf:resource="#ub-ffm:timespan:1887_1887"/>
+               <edm:occuredAt rdf:resource="http://ddb.vocnet.org/zeitvokabular/dat00015"/>
+            </edm:Event>
+            <skos:concept rdf:about="http://ddb.vocnet.org/hierarchietyp/ht021">
+               <skos:prefLabel xml:lang="de">Monografie</skos:prefLabel>
+            </skos:concept>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:1_Schulman">
+               <skos:prefLabel>Schulman</skos:prefLabel>
+            </edm:Agent>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:2_Margaliot__Israel">
+               <skos:prefLabel>Margaliot, Israel</skos:prefLabel>
+            </edm:Agent>
+            <edm:Agent rdf:about="#ub-ffm:agent:judaica:urn:nbn:de:hebis:30:2-4954:1_%22Die_Wahrheit%22">
+               <skos:prefLabel>"Die Wahrheit"</skos:prefLabel>
+            </edm:Agent>
+            <edm:Place rdf:about="#ub-ffm:place:judaica:urn:nbn:de:hebis:30:2-4954:1_Pitesci">
+               <skos:prefLabel xml:lang="de">Pitesci</skos:prefLabel>
+            </edm:Place>
+            <edm:TimeSpan rdf:about="#ub-ffm:timespan:1887_1887">
+               <edm:begin>1887</edm:begin>
+               <edm:end>1887</edm:end>
+               <skos:prefLabel xml:lang="de">1887</skos:prefLabel>
+            </edm:TimeSpan>
+            <edm:TimeSpan rdf:about="http://ddb.vocnet.org/zeitvokabular/dat00015">
+               <skos:notation>time_61900</skos:notation>
+            </edm:TimeSpan>
+         </rdf:RDF>
+      </edm>
+   </cortex>
+</outputList>
