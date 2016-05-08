@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:ore="http://www.openarchives.org/ore/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <edm:Agent rdf:about="#ub-ffm:agent:authority_gnd:124255957">
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/124255957"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/34704971"/>
+      <skos:altLabel>ויטאל, חיים</skos:altLabel>
+      <skos:prefLabel>Ṿiṭal, Ḥayim ben Yosef</skos:prefLabel>
+   </edm:Agent>
+   <edm:Agent rdf:about="#ub-ffm:agent:authority_gnd:13766365X">
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/13766365X"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/53241285"/>
+      <skos:altLabel>פופרש, מאיר בן יהודה ליב</skos:altLabel>
+      <skos:prefLabel>Popers, Meʾir ben Yehudah Leib</skos:prefLabel>
+   </edm:Agent>
+   <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1887549">
+      <dc:format>image/jpeg</dc:format>
+   </edm:WebResource>
+   <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1891083">
+      <dc:format>image/jpeg</dc:format>
+   </edm:WebResource>
+   <ore:Aggregation rdf:about="#ub-ffm:aggregation:sammlungen:urn:nbn:de:hebis:30:2-10980">
+      <edm:aggregatedCHO rdf:resource="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-10980"/>
+      <edm:dataProvider>Universitätsbibliothek JCS Frankfurt am Main</edm:dataProvider>
+      <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-10980"/>
+      <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1891083"/>
+      <edm:provider>Judaica Europeana</edm:provider>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </ore:Aggregation>
+   <edm:ProvidedCHO rdf:about="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-10980">
+      <dc:contributor rdf:resource="#ub-ffm:agent:authority_gnd:13766365X"/>
+      <dc:creator rdf:resource="#ub-ffm:agent:authority_gnd:124255957"/>
+      <dc:description>Frankfurt / M. : 1720</dc:description>
+      <dc:description>In: Ms. hebr. qu. 9 - [Kabbalistische Werke nach Rabi Yitsḥaḳ Luria]</dc:description>
+      <dc:description>Band 3</dc:description>
+      <dc:format>213 Bl. ; Beschreibstoff: Papier ; 21 x 29,5 cm</dc:format>
+      <dc:identifier>urn:nbn:de:hebis:30:2-10980</dc:identifier>
+      <dc:language>he</dc:language>
+      <dc:title>Ms. hebr. qu. 9 / III - Peri ʻets ḥayim</dc:title>
+      <dc:type>Text</dc:type>
+      <dcterms:alternative>Peri ʹeṣ ḥajjim</dcterms:alternative>
+      <dcterms:alternative>פרי עץ חיים</dcterms:alternative>
+      <dcterms:isPartOf rdf:resource="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-13066"/>
+      <dcterms:issued>1720</dcterms:issued>
+      <dcterms:spatial rdf:resource="#ub-ffm:place:sammlungen:urn:nbn:de:hebis:30:2-10980:d1e172_Frankfurt%20%2F%20M."/>
+      <edm:type>TEXT</edm:type>
+   </edm:ProvidedCHO>
+   <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-10980">
+      <dc:format>text/html</dc:format>
+      <dcterms:created>2011</dcterms:created>
+   </edm:WebResource>
+   <edm:Place rdf:about="#ub-ffm:place:sammlungen:urn:nbn:de:hebis:30:2-10980:d1e172_Frankfurt%20%2F%20M.">
+      <skos:prefLabel>Frankfurt / M.</skos:prefLabel>
+   </edm:Place>
+   <ore:Aggregation rdf:about="#ub-ffm:aggregation:sammlungen:urn:nbn:de:hebis:30:2-13066">
+      <edm:aggregatedCHO rdf:resource="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-13066"/>
+      <edm:dataProvider>Universitätsbibliothek JCS Frankfurt am Main</edm:dataProvider>
+      <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-13066"/>
+      <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1887549"/>
+      <edm:provider>Judaica Europeana</edm:provider>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </ore:Aggregation>
+   <edm:ProvidedCHO rdf:about="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-13066">
+      <dc:creator rdf:resource="#ub-ffm:agent:authority_gnd:124255957"/>
+      <dc:identifier>urn:nbn:de:hebis:30:2-13066</dc:identifier>
+      <dc:language>he</dc:language>
+      <dc:title>Ms. hebr. qu. 9 - [Kabbalistische Werke nach Rabi Yitsḥaḳ Luria]</dc:title>
+      <dc:type>Text</dc:type>
+      <dcterms:hasPart rdf:resource="#ub-ffm:item:sammlungen:urn:nbn:de:hebis:30:2-10980"/>
+      <dcterms:spatial rdf:resource="#ub-ffm:place:sammlungen:urn:nbn:de:hebis:30:2-13066:d1e68_Frankfurt%20%2F%20M."/>
+      <edm:type>TEXT</edm:type>
+   </edm:ProvidedCHO>
+   <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-13066">
+      <dc:format>text/html</dc:format>
+      <dcterms:created>2011</dcterms:created>
+   </edm:WebResource>
+   <edm:Place rdf:about="#ub-ffm:place:sammlungen:urn:nbn:de:hebis:30:2-13066:d1e68_Frankfurt%20%2F%20M.">
+      <skos:prefLabel>Frankfurt / M.</skos:prefLabel>
+   </edm:Place>
+</rdf:RDF>

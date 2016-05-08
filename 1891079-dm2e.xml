@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:ore="http://www.openarchives.org/ore/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:pro="http://purl.org/spar/pro/"
+         xmlns:dm2e="http://onto.dm2e.eu/schemas/dm2e/">
+   <foaf:Person rdf:about="http://data.dm2e.eu/data/agent/ub-ffm/authority_gnd/124255957">
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/124255957"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/34704971"/>
+      <skos:altLabel xml:lang="und-Hebr">ויטאל, חיים</skos:altLabel>
+      <skos:prefLabel xml:lang="und-Latn">Ṿiṭal, Ḥayim ben Yosef</skos:prefLabel>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://data.dm2e.eu/data/agent/ub-ffm/authority_gnd/13766365X">
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/13766365X"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/53241285"/>
+      <skos:altLabel xml:lang="und-Hebr">פופרש, מאיר בן יהודה ליב</skos:altLabel>
+      <skos:prefLabel xml:lang="und-Latn">Popers, Meʾir ben Yehudah Leib</skos:prefLabel>
+   </foaf:Person>
+   <foaf:Organization rdf:about="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/DM2E">
+      <skos:prefLabel>DM2E</skos:prefLabel>
+   </foaf:Organization>
+   <foaf:Organization rdf:about="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main">
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/10096915-X"/>
+      <owl:sameAs rdf:resource="http://ld.zdb-services.de/data/organisations/DE-30"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/123368197"/>
+      <skos:prefLabel xml:lang="de">Universitätsbibliothek JCS Frankfurt am Main</skos:prefLabel>
+   </foaf:Organization>
+   <edm:Place rdf:about="http://data.dm2e.eu/data/place/ub-ffm/authority_geonames/2925533">
+      <owl:sameAs rdf:resource="http://sws.geonames.org/2925533"/>
+      <skos:prefLabel>Frankfurt am Main</skos:prefLabel>
+      <wgs84_pos:lat>50.11552</wgs84_pos:lat>
+      <wgs84_pos:long>8.68417</wgs84_pos:long>
+   </edm:Place>
+   <edm:TimeSpan rdf:about="http://data.dm2e.eu/data/timespan/ub-ffm/1720-01-01T00-00-00_1720-12-31T23-59-59">
+      <edm:begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1720-01-01T00:00:00</edm:begin>
+      <edm:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1720-12-31T23:59:59</edm:end>
+      <skos:prefLabel xml:lang="de">1720</skos:prefLabel>
+   </edm:TimeSpan>
+   <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1887549">
+      <dc:format>image/jpeg</dc:format>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </edm:WebResource>
+   <edm:WebResource rdf:about="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1891083">
+      <dc:format>image/jpeg</dc:format>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </edm:WebResource>
+   <ore:Aggregation rdf:about="http://data.dm2e.eu/data/aggregation/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-10980">
+      <dm2e:displayLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dm2e:displayLevel>
+      <edm:aggregatedCHO rdf:resource="http://data.dm2e.eu/data/item/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-10980"/>
+      <edm:dataProvider rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+      <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-10980"/>
+      <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1891083"/>
+      <edm:provider rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/DM2E"/>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </ore:Aggregation>
+   <edm:ProvidedCHO rdf:about="http://data.dm2e.eu/data/item/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-10980">
+      <dc:contributor rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/authority_gnd/13766365X"/>
+      <dc:description xml:lang="de">Frankfurt / M. : 1720</dc:description>
+      <dc:description xml:lang="de">In: Ms. hebr. qu. 9 - [Kabbalistische Werke nach Rabi Yitsḥaḳ Luria]</dc:description>
+      <dc:description xml:lang="de">Band 3</dc:description>
+      <dc:description xml:lang="de">Die Folierung des Bandes II wird fortgesetzt, der Band umfaßt deshalb die Blätter 220 bis 432.</dc:description>
+      <dc:format xml:lang="de">213 Bl. ; Beschreibstoff: Papier ; 21 x 29,5 cm</dc:format>
+      <dc:identifier>urn:nbn:de:hebis:30:2-10980</dc:identifier>
+      <dc:language>he</dc:language>
+      <dc:title xml:lang="he-Latn">Ms. hebr. qu. 9 / III - Peri ʻets ḥayim</dc:title>
+      <dc:type rdf:resource="http://onto.dm2e.eu/schemas/dm2e/Manuscript"/>
+      <dcterms:alternative>Peri ʹeṣ ḥajjim</dcterms:alternative>
+      <dcterms:alternative xml:lang="he-Hebr">פרי עץ חיים</dcterms:alternative>
+      <dcterms:isPartOf rdf:resource="http://data.dm2e.eu/data/item/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066"/>
+      <dcterms:issued rdf:resource="http://data.dm2e.eu/data/timespan/ub-ffm/1720-01-01T00-00-00_1720-12-31T23-59-59"/>
+      <dm2e:holdingInstitution rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+      <dm2e:publishedAt rdf:resource="http://data.dm2e.eu/data/place/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-10980/1_Frankfurt___M."/>
+      <edm:currentLocation rdf:resource="http://data.dm2e.eu/data/place/ub-ffm/authority_geonames/2925533"/>
+      <edm:type>TEXT</edm:type>
+      <pro:author rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/authority_gnd/124255957"/>
+   </edm:ProvidedCHO>
+   <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-10980">
+      <dc:format>text/html</dc:format>
+      <dcterms:created>2011</dcterms:created>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </edm:WebResource>
+   <edm:Place rdf:about="http://data.dm2e.eu/data/place/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-10980/1_Frankfurt___M.">
+      <skos:prefLabel xml:lang="de">Frankfurt / M.</skos:prefLabel>
+   </edm:Place>
+   <ore:Aggregation rdf:about="http://data.dm2e.eu/data/aggregation/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066">
+      <dm2e:displayLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dm2e:displayLevel>
+      <edm:aggregatedCHO rdf:resource="http://data.dm2e.eu/data/item/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066"/>
+      <edm:dataProvider rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+      <edm:isShownAt rdf:resource="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-13066"/>
+      <edm:object rdf:resource="http://sammlungen.ub.uni-frankfurt.de/download/webcache/304/1887549"/>
+      <edm:provider rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/DM2E"/>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </ore:Aggregation>
+   <edm:ProvidedCHO rdf:about="http://data.dm2e.eu/data/item/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066">
+      <dc:description xml:lang="de">Frankfurt / M. : </dc:description>
+      <dc:identifier>urn:nbn:de:hebis:30:2-13066</dc:identifier>
+      <dc:language>he</dc:language>
+      <dc:title xml:lang="he">Ms. hebr. qu. 9 - [Kabbalistische Werke nach Rabi Yitsḥaḳ Luria]</dc:title>
+      <dc:type rdf:resource="http://onto.dm2e.eu/schemas/dm2e/Manuscript"/>
+      <dm2e:holdingInstitution rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/sammlungen/Universit%C3%A4tsbibliothek_JCS_Frankfurt_am_Main"/>
+      <dm2e:publishedAt rdf:resource="http://data.dm2e.eu/data/place/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066/1_Frankfurt___M."/>
+      <edm:currentLocation rdf:resource="http://data.dm2e.eu/data/place/ub-ffm/authority_geonames/2925533"/>
+      <edm:type>TEXT</edm:type>
+      <pro:author rdf:resource="http://data.dm2e.eu/data/agent/ub-ffm/authority_gnd/124255957"/>
+   </edm:ProvidedCHO>
+   <edm:WebResource rdf:about="http://nbn-resolving.de/urn:nbn:de:hebis:30:2-13066">
+      <dc:format>text/html</dc:format>
+      <dcterms:created>2011</dcterms:created>
+      <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+   </edm:WebResource>
+   <edm:Place rdf:about="http://data.dm2e.eu/data/place/ub-ffm/sammlungen/urn:nbn:de:hebis:30:2-13066/1_Frankfurt___M.">
+      <skos:prefLabel xml:lang="de">Frankfurt / M.</skos:prefLabel>
+   </edm:Place>
+</rdf:RDF>
